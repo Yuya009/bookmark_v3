@@ -1,0 +1,127 @@
+h1 {
+  font-size: 100px;
+  margin-top: 100px;
+}
+.center {
+  text-align: center;
+}
+.search {
+  width: 400px;
+  height: 30px;
+  border-radius: 10px;
+  margin: 0 0 15px 0;
+}
+.right {
+  text-align: right;
+  margin: 15px 10px;
+}
+.book {
+  margin: 5px;
+}
+.under {
+  margin-bottom: 20px;
+}
+.book_m {
+  margin: 5px 5px 5px 5px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+.book_m:hover {
+  box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.side {
+  display: flex;
+  flex-wrap: wrap;
+}
+.login {
+  background: white;
+  width: 300px;
+  padding: 10px 0 20px 0;
+  border-radius: 10px;
+  box-shadow: 15px 15px 0px rgba(0, 0, 0, 0.1);
+  margin: 0 20px 0 20px;
+}
+input {
+  width: 50%;
+  background: #f5f5f5;
+  border: 0;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #eee;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+  height: 100%;
+}
+legend {
+  margin: 10px;
+}
+
+body {
+  background: #f5f5f5;
+}
+.btn {
+  position: relative;
+  width: 62%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 0;
+  background: #f26964;
+  font-size: 1.2em;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 0px #c1524e;
+}
+.search_btn {
+  width: 400px;
+  height: 60px;
+  background: #f26964;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 0px #c1524e;
+}
+.search_btn_d {
+  width: 100px;
+  height: 60px;
+  background: #f26964;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 0px #c1524e;
+}
+.search {
+  background: white;
+  border: solid 1px;
+  height: 60px;
+}
+.detail {
+  padding: 10px;
+  margin: 10px;
+}
+.detail_input {
+  background: white;
+  border: solid 1px;
+  height: 15px;
+  width: 150px;
+}
+.detail_all {
+  padding: 10px;
+}
+.chk {
+  width: 100px;
+  padding: 10px;
+}
+.submit_detail {
+  width: 100px;
+  height: 60px;
+  background: #f26964;
+  color: #fff;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 0px #c1524e;
+}
